@@ -10,7 +10,6 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack{
-            // commit test
             Color(.systemRed)
                 .ignoresSafeArea()
                 
@@ -28,7 +27,7 @@ struct ContentView: View {
                         .fontWeight(.bold)
                         .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
                         
-                    Text("Poet of Code!")
+                    Text("Poet of Code")
                 }
                 
                 Text("Founder of the Algorithmic Justice League. Uses art and research to illuminate social implications of AI and to promote equitable and accountable technology.")
